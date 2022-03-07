@@ -1,4 +1,4 @@
-﻿namespace EncryptProperty
+﻿namespace EncryptProperty.Provider
 {
     public interface IEncryptionProvider
     {

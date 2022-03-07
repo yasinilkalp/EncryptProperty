@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+﻿using EncryptProperty.Provider;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace EncryptProperty
+namespace EncryptProperty.Converter
 {
     internal sealed class EncryptionConverter : ValueConverter<string, string>
     {

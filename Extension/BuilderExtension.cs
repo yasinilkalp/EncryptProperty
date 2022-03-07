@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using EncryptProperty.Attribute;
 using System;
 using System.Linq;
+using EncryptProperty.Provider;
+using EncryptProperty.Converter;
+using EncryptProperty.Config;
 
 namespace EncryptProperty.Extension
 {

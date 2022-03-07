@@ -1,9 +1,10 @@
-﻿using System;
+﻿using EncryptProperty.Config;
+using System;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace EncryptProperty
+namespace EncryptProperty.Provider
 {
     public class EncryptionProvider : IEncryptionProvider
     {

@@ -1,4 +1,4 @@
-﻿namespace EncryptProperty
+﻿namespace EncryptProperty.Config
 {
     public class EncryptionConfig
     {
