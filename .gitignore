@@ -11,6 +11,7 @@
 *.sln.docstates
 *.nuspec
 nuget.exe
+nuget.config
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

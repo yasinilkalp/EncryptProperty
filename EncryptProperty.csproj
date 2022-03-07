@@ -4,6 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
     <Authors>Yasin ilkalp Arabacı</Authors>
     <Company>KodEkibi</Company>
+    <PackageDescription>This package encrypts and automatically decrypts the property marked.</PackageDescription>
+    <RepositoryUrl>https://github.com/yasinilkalp/EncryptProperty</RepositoryUrl>
+
   </PropertyGroup>
 
   <ItemGroup>
