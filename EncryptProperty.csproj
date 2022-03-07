@@ -6,6 +6,7 @@
     <Company>KodEkibi</Company>
     <PackageDescription>This package encrypts and automatically decrypts the property marked.</PackageDescription>
     <RepositoryUrl>https://github.com/yasinilkalp/EncryptProperty</RepositoryUrl>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
 
   </PropertyGroup>
 
