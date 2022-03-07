@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>Yasin ilkalp Arabacı</Authors>
+    <Company>KodEkibi</Company>
   </PropertyGroup>
 
   <ItemGroup>
