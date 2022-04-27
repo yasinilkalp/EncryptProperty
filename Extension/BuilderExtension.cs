@@ -6,6 +6,7 @@ using System.Linq;
 using EncryptProperty.Provider;
 using EncryptProperty.Converter;
 using EncryptProperty.Config;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace EncryptProperty.Extension
 {
@@ -41,6 +42,12 @@ namespace EncryptProperty.Extension
         {
             EncryptionConfig.SetConfig(privateKey, isEncrypted);
             return optionsBuilder;
+        }
+
+        public static IServiceCollection UseEncryption(this IServiceCollection services, string privateKey, bool isEncrypted)
+        {
+            EncryptionConfig.SetConfig(privateKey, isEncrypted);
+            return services;
         }
     }
 }
