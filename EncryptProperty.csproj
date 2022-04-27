@@ -1,17 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <Authors>Yasin ilkalp Arabacı</Authors>
-    <Company>KodEkibi</Company>
-    <PackageDescription>This package encrypts and automatically decrypts the property marked.</PackageDescription>
-    <RepositoryUrl>https://github.com/yasinilkalp/EncryptProperty</RepositoryUrl>
-    <PackageIcon>icon.png</PackageIcon>
-    <Version>1.0.1.0</Version> 
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
-  </ItemGroup>
+	<PropertyGroup>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<TargetFramework>net5.0</TargetFramework>
+		<Authors>Yasin ilkalp Arabacı</Authors>
+		<Company>KodEkibi</Company>
+		<PackageDescription>This package encrypts and automatically decrypts the property marked.</PackageDescription>
+		<RepositoryUrl>https://github.com/yasinilkalp/EncryptProperty</RepositoryUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<Version>1.0.2.0</Version>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="icon.png" Pack="true" PackagePath=""/>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+	</ItemGroup>
 
 </Project>
