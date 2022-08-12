@@ -8,13 +8,13 @@
 		<PackageDescription>This package encrypts and automatically decrypts the property marked.</PackageDescription>
 		<RepositoryUrl>https://github.com/yasinilkalp/EncryptProperty</RepositoryUrl>
 		<PackageIcon>icon.png</PackageIcon>
-		<Version>1.0.3</Version>
+		<Version>1.0.4</Version>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Include="icon.png" Pack="true" PackagePath=""/>
+		<None Include="icon.png" Pack="true" PackagePath="" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
 	</ItemGroup>
 
 </Project>
